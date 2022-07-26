@@ -4,6 +4,12 @@ local UseEvent = addonTable.Utils.UseEvent
 local sharedDestGUID
 local pickPocketCast = false
 local pickPocketedUnits = {}
+local playerClass = select(2, UnitClass("player"))
+local isRogue = playerClass == "ROGUE"
+
+if (not isRogue) then
+  return
+end
 
 local function HandlePickPocketEvent(self, event, ...)
   if (event == "COMBAT_LOG_EVENT_UNFILTERED") then
