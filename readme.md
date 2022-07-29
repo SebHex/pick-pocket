@@ -7,4 +7,5 @@ until an NPC can be pickpocketed again.
 
 ## Installation
 
-Download the latest version of PickPocket from Curse or GitHub.
+Download the latest version of PickPocket from
+[Curse](https://www.curseforge.com/wow/addons/pickpocket) or GitHub.
